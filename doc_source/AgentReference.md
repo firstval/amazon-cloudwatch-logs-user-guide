@@ -14,6 +14,7 @@ The CloudWatch Logs agent configuration file describes information needed by the
 state_file = value
 logging_config_file = value
 use_gzip_http_content_encoding = [true | false]
+queue_size = value
 
 [logstream1]
 log_group_name = value
